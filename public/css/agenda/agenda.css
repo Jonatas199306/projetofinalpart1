@@ -1,0 +1,14 @@
+#horarios {
+    /* height: 514px; */
+    height: 800px;
+    overflow-y: scroll;
+  }
+
+.btnExcluir {
+  cursor: pointer;
+}
+
+#transferir {
+    height: 240px;
+    overflow-y: scroll;
+  }

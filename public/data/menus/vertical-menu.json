@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "icon": "desktop"
+    },
+
+    {
+        "url": "#",
+        "name": "Cadastros",
+        "i18n": "Cadastros",
+        "icon": "notebook",
+        "submenu": [
+          {
+             "url": "cabelereiros",
+             "name": "cabelereiros",
+             "i18n": "cabelereiros",
+             "icon": "bx bx-right-arrow-alt"
+          },
+          {
+            "url": "servicos",
+            "name": "servicos",
+            "i18n": "servicos",
+            "icon": "bx bx-right-arrow-alt"
+          },
+          {
+              "url": "testemunhos",
+              "name": "testemunhos",
+              "i18n": "testemunhos",
+              "icon": "bx bx-right-arrow-alt"
+          }
+        ]
+      },
+    {
+      "url": "#",
+      "name": "Segurança",
+      "i18n": "Segurança",
+      "icon": "shield",
+      "submenu": [
+        {
+          "url": "usuarios",
+          "name": "Usuários",
+          "i18n": "Usuários",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+            "url": "grupos",
+            "name": "Grupos",
+            "i18n": "Grupos",
+            "icon": "bx bx-right-arrow-alt"
+          }
+      ]
+    },
+    {
+      "url": "https://www.gvsolucoes.com.br",
+      "name": "Suporte",
+      "i18n": "Suporte",
+      "icon": "help",
+      "newTab":"_blank"
+    }
+  ]
+}
